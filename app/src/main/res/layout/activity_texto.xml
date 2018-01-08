@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/pantalla6"
+tools:context="oxigensoft.speacktotext.Texto">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="153dp"
+        android:layout_height="31dp"
+        android:layout_alignLeft="@+id/ConvertirAudio"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/ConvertirAudio"
+        android:layout_marginTop="38dp"
+        android:text="@string/el_mensaje_dice"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:text="@string/presioname"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <TextView
+        android:id="@+id/ConvertirAudio"
+        android:layout_width="337dp"
+        android:layout_height="107dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <ImageButton
+        android:id="@+id/ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginBottom="26dp"
+        android:contentDescription="@string/todo"
+        android:onClick="onClickImgBtnTexto"
+        app:srcCompat="@drawable/microfono" />
+
+</RelativeLayout>

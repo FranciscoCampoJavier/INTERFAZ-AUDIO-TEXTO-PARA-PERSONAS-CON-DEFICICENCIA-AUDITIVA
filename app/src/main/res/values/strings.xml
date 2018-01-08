@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">speack to text</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="ayuda">AYUDA</string>
+    <string name="bienvenido_al_aplicativo">Bienvenido al aplicativo</string>
+    <string name="convertidor_de_audio_a_texto">convertidor de audio a texto</string>
+    <string name="el_mensaje_dice">El mensaje dice:</string>
+    <string name="presioname">Presioname</string>
+    <string name="todo">TODO</string>
+    <string name="bienvenido_al_aplicativo_convertidor_de_audio_a_texto">bienvenido_al_aplicativo convertidor_de_audio_a_texto</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="entendido">ENTENDIDO</string>
+</resources>
